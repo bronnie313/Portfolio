@@ -1,0 +1,7 @@
+.right #menu {
+    padding: 0 7px;
+    cursor: pointer;
+   }
+.container {
+    justify-content: space-between;
+}
