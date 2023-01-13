@@ -38,7 +38,7 @@ body{
 .material-icons {
   background-color: white;
   color: blue;
-  padding-right: 20px;
+  padding-right: 40px;
   padding-top: 20px;
 }
 
@@ -98,4 +98,7 @@ h2 {
   line-height: 24px;
   color: #7f8cff;
   padding-left: 20px;
+}
+ul {
+  list-style-type: none;
 }
