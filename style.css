@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background: #f7f7f9;
+  height: 4631.15px;
 }
 
 .header {
@@ -19,7 +20,7 @@ body {
 .container {
   background-color: white;
   color: #6070ff;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 20px;
   font-weight: 700;
   font-style: normal;
@@ -34,8 +35,8 @@ body {
 .material-icons {
   background-color: white;
   color: blue;
-  padding-right: 40px;
-  padding-top: 20px;
+  padding-right: 25px;
+  padding-top: 10px;
 }
 
 .myname {
@@ -103,11 +104,14 @@ ul {
 }
 
 .works {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto;
   align-items: center;
-  padding: 114px 24px;
   gap: 88px;
+  padding: 114px 24px;
+  width: 375px;
+  left: 0;
+  top: 718px;
 }
 
 article {
@@ -145,8 +149,6 @@ article {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  height: 288px;
-  justify-content: space-between;
 }
 
 .ton {
@@ -155,7 +157,21 @@ article {
   font-size: 32px;
   color: #172b4d;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.ton_multi {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 0;
+  line-height: 44px;
+  width: 295px;
+  height: 80px;
 }
 
 .word {
@@ -181,6 +197,21 @@ article {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 10px;
+  height: 48px;
+}
+
+.click:hover {
+  background: #6070ff;
+  color: white;
+  cursor: pointer;
+}
+
+.click:active {
+  background: navy;
+  color: #fff;
+  cursor: pointer;
 }
 
 .javaScript {
@@ -213,7 +244,6 @@ article {
   background: #fff;
   border-top-right-radius: 100px;
   gap: 24px;
-  padding: 114px 24px;
 }
 
 .about_myself {
@@ -239,7 +269,6 @@ article {
 
 .info {
   width: 327px;
-  height: 144px;
   font-weight: 400;
   font-style: 16px;
   line-height: 24px;
@@ -274,10 +303,17 @@ article {
   background: #f7f7f9;
   border-radius: 8px;
   gap: 20px;
+  margin-bottom: 12px;
+  padding: 5px 12px;
 }
 
 .item {
-  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
 }
 
 .language_list {
@@ -291,15 +327,11 @@ article {
 
 .skills {
   line-height: 10px;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 .line {
   padding: 0;
-}
-
-button {
-  margin-top: 50px;
 }
 
 .connect_2 {
@@ -339,4 +371,30 @@ button {
   align-items: center;
   color: #000;
   height: 24px;
+}
+
+.action {
+  width: 295px;
+  height: 72px;
+  padding-bottom: 16px;
+}
+
+.back_end {
+  width: 88px;
+  height: 16px;
+  color: #7a869a;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.cano {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
 }
