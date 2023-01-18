@@ -1,16 +1,17 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f7f7f9;
+}
 
-body{
-  background-color: #f7f7f9;    
-} 
 .header {
   display: flex;
   justify-content: space-between;
@@ -24,7 +25,6 @@ body{
   line-height: 20px;
   font-weight: 700;
   font-style: normal;
-  font-family: "Poppins", sans-serif;
   flex: 1;
   padding-top: 20px;
   padding-left: 20px;
@@ -89,7 +89,6 @@ body{
 
 h2 {
   height: 24px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -101,6 +100,7 @@ h2 {
 ul {
   list-style-type: none;
 }
+
 .works {
   display: flex;
   flex-direction: column;
@@ -109,10 +109,10 @@ ul {
   gap: 88px;
   width: 375px;
   height: 2788px;
-
 }
+
 article {
-  background: #ffffff;
+  background: #fff;
   display: flex;
   flex-direction: column;
   border: 1px solid #dfe1e6;
@@ -121,32 +121,36 @@ article {
   gap: 12px;
   min-height: 70vh;
 }
+
 .flex-ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
-  margin: 0px;
+  margin: 0;
 }
+
 .lang {
   display: flex;
   flex-direction: row;
   width: 203px;
-  height:24px;
+  height: 24px;
   align-items: center;
-  padding: 0px;
-  gap: 8px
+  padding: 0;
+  gap: 8px;
 }
+
 .section_2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   width: 295px;
   height: 288px;
   justify-content: space-between;
 }
+
 .ton {
   font-family: 'Poppins' sans-serif;
   font-style: normal;
@@ -155,28 +159,30 @@ article {
   color: #172b4d;
   margin-top: 15px;
   margin-bottom: 15px;
-  
 }
+
 .word {
   font-weight: 400;
   line-height: 24px;
   color: #344563;
   width: 295px;
 }
+
 .dot {
   width: 8px;
   height: 8px;
   color: #c1c7d0;
 }
+
 .click {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #396df2
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
 }
