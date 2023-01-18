@@ -2,14 +2,12 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
-  background-color: #f7f7f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: #f7f7f9;
 }
 
 .header {
@@ -69,11 +67,12 @@ body {
   flex-direction: row;
   padding-left: 20px;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .about {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   color: #344563;
   padding-left: 20px;
@@ -93,7 +92,7 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 24px;
   color: #7f8cff;
   padding-left: 20px;
@@ -109,8 +108,6 @@ ul {
   align-items: center;
   padding: 114px 24px;
   gap: 88px;
-  width: 375px;
-  height: 2788px;
 }
 
 article {
@@ -153,7 +150,6 @@ article {
 }
 
 .ton {
-  font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -176,8 +172,7 @@ article {
 }
 
 .click {
-  font-family: 'Poppins' sans-serif;
-  font-style: normal ;
+  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -187,21 +182,7 @@ article {
   letter-spacing: 0.03em;
   color: #396df2;
 }
-.lang {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 203px;
-  height: 24px;
-}
-.language_list {
-  display: flex;
-  /* flex-direction: column; */
-  margin-top: 3rem;
-  align-items: center;
-}
+
 .javaScript {
   background: #f7f7f9;
   display: flex;
@@ -213,35 +194,149 @@ article {
   height: 66.72px;
   border-radius: 8px;
 }
+
 .html {
   display: flex;
   flex-direction: row;
 }
+
 .css {
   display: flex;
   flex-direction: row;
 }
-form {
-  text-align: center;
-  margin-top: 0px;
-}
-textarea {
-  height: 100px;
-}
-input , textarea {
-  margin-bottom: 10px;
-  font-size: 10px;
-  padding: 15px 10px 10px;
-  border: 1px solid #cecece;
-  outline: none;
 
+.about_me {
+  display: flex;
+  flex-direction: column;
+  height: 1125.15px;
+  top: 3506px;
+  background: #fff;
+  border-top-right-radius: 100px;
+  gap: 24px;
+  padding: 114px 24px;
 }
-.contact {
-  position: absolute;
-  width: 375px;
-  height: 779px;
-  left: 0px;
-  top: 5410px;
-  background: #6070ff;
-  transform: matr;
+
+.about_myself {
+  width: 327px;
+  height: 101%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 12px;
+  width: 327px;
+  height: 409px;
+}
+
+.info {
+  width: 327px;
+  height: 144px;
+  font-weight: 400;
+  font-style: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.union {
+  display: flex;
+  width: 327px;
+  height: 72px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.union_lang {
+  display: flex;
+  width: 327px;
+  height: 72px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills_list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: left;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.item {
+  padding: 20px;
+}
+
+.language_list {
+  padding-left: 20px;
+  gap: 0;
+}
+
+.framework {
+  padding: 20px;
+}
+
+.skills {
+  line-height: 10px;
+  padding-top: 150px;
+}
+
+.line {
+  padding: 0;
+}
+
+button {
+  margin-top: 50px;
+}
+
+.connect_2 {
+  padding-left: 0;
+}
+
+.html_lang {
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.css_lang {
+  align-items: center;
+  padding: 4px 12px;
+  width: 45px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.js_lang {
+  align-items: center;
+  padding: 4px 12px;
+  width: 89px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.language_col {
+  font-weight: 500;
+  line-height: 24px;
+  align-items: center;
+  color: #000;
+  height: 24px;
 }
