@@ -197,9 +197,15 @@ article {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  border: 1px solid #6070ff;
+  border: 1px solid #7f8cff;
   border-radius: 10px;
   height: 48px;
+  background-color: #fff;
+}
+
+.click:disabled {
+  background: #fff;
+  cursor: pointer;
 }
 
 .click:hover {
@@ -255,6 +261,7 @@ article {
   line-height: 52px;
   align-items: center;
   color: #172b4d;
+  padding: 0;
 }
 
 .top {
@@ -282,6 +289,17 @@ article {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: #000;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.language_col {
+  font-weight: 500;
+  line-height: 24px;
+  align-items: center;
+  color: #000;
+  height: 24px;
 }
 
 .union_lang {
@@ -336,6 +354,11 @@ article {
 
 .connect_2 {
   padding-left: 0;
+  font-size: 16px;
+}
+
+.connect {
+  font-size: 16px;
 }
 
 .html_lang {
@@ -345,6 +368,7 @@ article {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
+  color: #6070ff;
 }
 
 .css_lang {
@@ -354,6 +378,7 @@ article {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
+  color: #6070ff;
 }
 
 .js_lang {
@@ -363,14 +388,7 @@ article {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-}
-
-.language_col {
-  font-weight: 500;
-  line-height: 24px;
-  align-items: center;
-  color: #000;
-  height: 24px;
+  color: #6070ff;
 }
 
 .action {
