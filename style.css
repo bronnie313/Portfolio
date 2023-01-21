@@ -416,3 +416,83 @@ article {
   line-height: 16px;
   color: #344563;
 }
+
+.contact_me {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  left: 0;
+  background: #6070ff;
+  border-top-left-radius: 100px;
+  background-image: url("./images/contact\ form\ shapes-mobile@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  height: 900px;
+}
+
+.contact_head {
+  height: 56px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+}
+
+.contact_info {
+  width: 327px;
+  height: 102px;
+  left: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  align-items: center;
+}
+
+/*
+.contact_form {
+  border-radius: 5px;
+  gap: 20px;
+  padding: 20px;
+} */
+input[type=text],
+input[type=email] {
+  width: 327px;
+  height: 48px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 170px;
+  width: 327px;
+  font-size: 11pt;
+  border-radius: 5px;
+  left: 6.4%;
+  right: 6.4%;
+  top: 94.73%;
+  bottom: 2.13%;
+  background: #fff;
+}
+
+.submit {
+  width: 142px;
+  height: 48px;
+  left: 24px;
+  top: 5317px;
+  background: #fff;
+  border-radius: 8px;
+  align-self: flex-start;
+}
