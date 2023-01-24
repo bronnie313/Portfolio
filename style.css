@@ -427,7 +427,6 @@ article {
   background-image: url("./images/contact\ form\ shapes-mobile@2x.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  text-align: center;
   height: 900px;
 }
 
@@ -495,4 +494,10 @@ textarea {
   background: #fff;
   border-radius: 8px;
   align-self: flex-start;
+}
+.shape {
+  text-align: center;
+}
+.form {
+  padding-left: 30px;
 }

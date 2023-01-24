@@ -211,12 +211,18 @@
             love to help with it </p>
         </div>
         <div class="contact_form">
-            <form>
-                <input name="name" placeholder="name" type="text" /><br><br>
-                <input name="name" placeholder="email@example.com" type="email"/><br><br>
-                <textarea name="message" placeholder="Write your message here"></textarea><br><br>
-                <input type="submit" value="Get in touch" class="submit" />
+            <form action="https://formspree.io/f/{form_id}" method="post">
+                <ul class="form">
+                    <li class="txt_name"><input name="name" placeholder="name" type="text" required/></li><br>
+                    <li class="txt_email"><input name="name" placeholder="email@example.com" type="email" required/></li><br>
+                    <li class="txt_area"><textarea name="message" placeholder="Write your message here" required></textarea></li><br>
+                    <li class="get_in_touch"><input type="submit" value="Get in touch" class="submit" /></li>
+                </ul>
             </form>
+            <br><br>
+            <div class="shape">
+                <img src="./images/Shape.png" alt="shape" />
+            </div>
         </div>
 
     </section>
