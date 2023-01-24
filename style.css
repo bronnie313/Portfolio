@@ -498,7 +498,26 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  cursor: pointer;
 }
+
+.submit:hover {
+  background-color: #6070ff;
+  color: white;
+
+}
+
+.submit:active {
+  background: #2230d2;
+  color: #ffffff;
+}
+
+.submit:disabled {
+  color: #5e6c84;
+  background-color: #e5e5e5;
+}
+
+.submit
 
 .shape {
   text-align: center;
