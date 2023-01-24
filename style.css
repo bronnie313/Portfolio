@@ -495,9 +495,11 @@ textarea {
   border-radius: 8px;
   align-self: flex-start;
 }
+
 .shape {
   text-align: center;
 }
+
 .form {
   padding-left: 30px;
 }
