@@ -431,7 +431,6 @@ article {
 }
 
 .contact_head {
-  height: 56px;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -440,11 +439,11 @@ article {
   align-items: center;
   text-align: center;
   color: white;
-  padding-top: 120px;
+  padding-top: 150px;
+  margin-bottom: 12px;
 }
 
 .contact_info {
-  width: 327px;
   height: 102px;
   left: 24px;
   font-family: 'Poppins', sans-serif;
@@ -455,6 +454,8 @@ article {
   color: #ebebff;
   text-align: center;
   align-items: center;
+  padding: 30px;
+  margin: 0;
 }
 
 /*
@@ -465,25 +466,28 @@ article {
 } */
 input[type=text],
 input[type=email] {
-  width: 327px;
+  width: 329px;
   height: 48px;
-  margin: 8px 0;
+  margin: 12px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
   box-sizing: border-box;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
 }
 
 textarea {
   height: 170px;
-  width: 327px;
+  width: 320px;
   font-size: 11pt;
-  border-radius: 5px;
-  left: 6.4%;
-  right: 6.4%;
-  top: 94.73%;
-  bottom: 2.13%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin: 12px 0;
 }
 
 .submit {
@@ -498,31 +502,70 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  cursor: pointer;
+  margin: 12px 0;
 }
 
 .submit:hover {
   background-color: #6070ff;
   color: white;
-
+  cursor: pointer;
 }
 
 .submit:active {
   background: #2230d2;
-  color: #ffffff;
+  color: #fff;
+  cursor: pointer;
 }
 
 .submit:disabled {
   color: #5e6c84;
   background-color: #e5e5e5;
+  cursor: pointer;
 }
-
-.submit
 
 .shape {
   text-align: center;
 }
 
 .form {
-  padding-left: 30px;
+  padding-left: 20px;
+}
+
+.text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  height: 18px;
+  left: 16px;
+  right: 38px;
+  color: #172b4d;
+  width: 273px;
+  padding-left: 10px;
+}
+
+.txt_email {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  height: 18px;
+  left: 16px;
+  right: 38px;
+  color: #172b4d;
+  width: 273px;
+  padding-left: 10px;
+}
+
+.txt_area {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding-left: 10px;
+  padding-top: 10px;
 }
