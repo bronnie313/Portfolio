@@ -10,11 +10,22 @@ body {
   background: #f7f7f9;
   height: 4631.15px;
 }
-
+@media only screen and (max-width: 768px) {
+  .item_nav {
+    display: none;
+  }
+  .about {
+    width: 327px;
+  }
+  
+}
 .header {
   display: flex;
   justify-content: space-between;
   background-color: white;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .container {
@@ -26,17 +37,11 @@ body {
   font-style: normal;
   font-family: "Poppins", sans-serif;
   flex: 1;
-  padding-top: 20px;
-  padding-left: 20px;
-  width: 76px;
-  height: 20px;
 }
 
-.material-icons {
-  background-color: white;
-  color: blue;
-  padding-right: 25px;
-  padding-top: 10px;
+#menu {
+  display: inline;
+  cursor: pointer;
 }
 
 .myname {
@@ -44,7 +49,7 @@ body {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  width: 327px;
+  width: 300px;
   height: 150px;
 }
 
@@ -421,13 +426,13 @@ article {
   display: flex;
   flex-direction: column;
   width: 100%;
-  left: 0;
   background: #6070ff;
   border-top-left-radius: 100px;
   background-image: url("./images/contact\ form\ shapes-mobile@2x.png");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 900px;
+  align-items: center;
 }
 
 .contact_head {
@@ -457,13 +462,11 @@ article {
   padding: 30px;
   margin: 0;
 }
-
-/*
 .contact_form {
-  border-radius: 5px;
-  gap: 20px;
-  padding: 20px;
-} */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}  
 input[type=text],
 input[type=email] {
   width: 329px;
@@ -529,8 +532,8 @@ textarea {
 }
 
 .form {
-  padding-left: 20px;
-}
+  padding-left: 0px;
+} 
 
 .text {
   font-family: 'Poppins', sans-serif;
@@ -569,4 +572,41 @@ textarea {
   color: #172b4d;
   padding-left: 10px;
   padding-top: 10px;
+}
+@media only screen and (min-width: 768px) {
+  #menu {
+    display: none;
+  }
+  .section_1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/desk_top.png);
+  }
+  .item_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 20px;
+    padding-right: 50px;
+  }
+  .contact_me {
+    background-image: url(./images/contact\ form\ background\ desk.png);
+  }
+  .contact_info {
+    width: 569px;
+    height: 102px;
+    font-family: 'Poppins'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .header {
+    box-shadow: 0 0.25px 10px 0 rgba(0, 0, 255, 0.2);
+    position: fixed;
+    width: 100%;
+  }
 }
