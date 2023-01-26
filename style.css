@@ -75,6 +75,15 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 }
+.flex-icons_2 {
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  flex-direction: row;
+  padding-left: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
 .about {
   font-weight: 500;
@@ -607,6 +616,52 @@ textarea {
   .header {
     box-shadow: 0 0.25px 10px 0 rgba(0, 0, 255, 0.2);
     position: fixed;
+    width: 90%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .article > img {
+    height: 100%;
     width: 100%;
   }
+  .section_2 {
+    display: flex;
+    float: left;
+  }
+  .header {
+    float: left;
+  }
+  .myname {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    padding-left: 12rem;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    
+  }
+  .about {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+    padding-left: 13rem;
+    width: 60%;
+  
+    /* height: 146px; */
+  }
+  .connect {
+    padding-left: 13rem;
+  }
+  .flex-icons{
+    padding-left: 13rem;
+  }
+  /* .move {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12rem;
+  } */
 }
