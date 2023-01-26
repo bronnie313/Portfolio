@@ -1,9 +1,9 @@
 html {
   box-sizing: border-box;
 }
-/* * {
+ * {
   outline: 1px solid red;
-} */
+} 
 
 body {
   margin: 0;
@@ -322,7 +322,7 @@ article {
 
 .union_lang {
   display: flex;
-  width: 327px;
+  width: 90%;
   height: 72px;
   flex-direction: row;
   justify-content: space-between;
@@ -355,6 +355,11 @@ article {
 .language_list {
   padding-left: 20px;
   gap: 0;
+}
+
+hr {
+  width: 95%;
+  float: left;
 }
 
 .framework {
@@ -672,10 +677,11 @@ textarea {
     grid-template-columns: 1fr 1.5fr;
     gap: 2em;
     height: fit-content;
+    padding-bottom: 30px;
   }
-  /* .top {
-   padding-left: 12rem;
-  } */
+   .top {
+   padding: 5em 7% 7% 6em;
+  }
   .software_info {
     color: #344563;
     font-family: 'Poppins',sans-serif;
@@ -712,5 +718,27 @@ textarea {
   }
   .ton_multi {
     width: 100%;
+  }
+  .union_lang {
+    width: 80%;
+  }
+  hr {
+    width: 80%;
+    float: left;
+  }
+  .skills_list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+    background-color: #f7f7f9;
+    border-radius: 8px;
+    gap: 8px;
+  }
+  .language_list {
+    display: flex;
+    padding-left: 0px;
+    gap: 8px;
   }
 }
