@@ -1,9 +1,9 @@
 html {
   box-sizing: border-box;
 }
- * {
+ /* * {
   outline: 1px solid red;
-} 
+}  */
 
 body {
   margin: 0;
@@ -263,15 +263,13 @@ article {
 .about_me {
   display: flex;
   flex-direction: column;
-  height: 1125.15px;
   top: 3506px;
   background: #fff;
   border-top-right-radius: 100px;
-  gap: 24px;
 }
 
 .about_myself {
-  width: 327px;
+  /* width: 327px; */
   height: 101%;
   font-style: normal;
   font-weight: 700;
@@ -288,8 +286,8 @@ article {
   align-items: flex-start;
   padding: 20px;
   gap: 12px;
-  width: 327px;
-  height: 409px;
+  width: 80%;
+  /* height: 409px; */
 }
 
 .info {
@@ -353,7 +351,7 @@ article {
 }
 
 .language_list {
-  padding-left: 20px;
+  padding-left: 0px;
   gap: 0;
 }
 
@@ -368,7 +366,7 @@ hr {
 
 .skills {
   line-height: 10px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .line {
@@ -415,8 +413,8 @@ hr {
 }
 
 .action {
-  width: 295px;
-  height: 72px;
+  /* width: 295px; */
+  /* height: 72px; */
   padding-bottom: 16px;
 }
 
@@ -467,7 +465,8 @@ hr {
 }
 
 .contact_info {
-  height: 102px;
+  height: 10%;
+  width: 85%;
   left: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -512,7 +511,7 @@ textarea {
 }
 
 .submit {
-  width: 142px;
+  width: 35%;
   height: 48px;
   left: 24px;
   top: 5317px;
@@ -613,9 +612,8 @@ textarea {
     background-image: url(./images/contact\ form\ background\ desk.png);
   }
   .contact_info {
-    width: 569px;
-    height: 102px;
-    font-family: 'Poppins'sans-serif;
+    width: 50%;
+    height: 10%;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -675,12 +673,10 @@ textarea {
   .about_me {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    gap: 2em;
+    /* gap: 2em; */
     height: fit-content;
     padding-bottom: 30px;
-  }
-   .top {
-   padding: 5em 7% 7% 6em;
+    padding: 5em 7% 0 7%;
   }
   .software_info {
     color: #344563;
@@ -689,8 +685,7 @@ textarea {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    width: 447px;
-    height: 102px;
+    width: 100%
   }
   .article {
     display: flex;
@@ -719,26 +714,35 @@ textarea {
   .ton_multi {
     width: 100%;
   }
-  .union_lang {
-    width: 80%;
-  }
   hr {
-    width: 80%;
+    width: 90%;
     float: left;
   }
   .skills_list {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 20%;
-    height: 20%;
+    width: 8%;
+    height: 0%;
     background-color: #f7f7f9;
     border-radius: 8px;
-    gap: 8px;
+    gap: 0px;
   }
   .language_list {
     display: flex;
     padding-left: 0px;
     gap: 8px;
+  }
+  .about_myself {
+   margin: 0px;
+  }
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submit {
+    display: flex;
+    align-items: center;
   }
 }
