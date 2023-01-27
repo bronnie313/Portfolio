@@ -2,9 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-/* * {
+* {
   outline: 1px solid red;
-}  */
+}
 
 body {
   margin: 0;
@@ -12,7 +12,6 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background: #f7f7f9;
-  height: 4631.15px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -290,7 +289,8 @@ article {
 .top {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+
+  /* align-items: flex-start; */
   padding: 20px;
   gap: 12px;
   width: 80%;
@@ -626,6 +626,7 @@ textarea {
 
   .contact_me {
     background-image: url(./images/contact\ form\ background\ desk.png);
+    align-content: center;
   }
 
   .contact_info {
@@ -702,7 +703,7 @@ textarea {
 
     /* gap: 2em; */
     height: fit-content;
-    padding: 5em 7% 0 7%;
+    padding: 5em 7% 5em 7%;
   }
 
   .software_info {
@@ -758,7 +759,7 @@ textarea {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 8%;
+    width: 15%;
     height: 0%;
     background-color: #f7f7f9;
     border-radius: 8px;
