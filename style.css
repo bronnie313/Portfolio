@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
 }
- /* * {
+
+/* * {
   outline: 1px solid red;
 }  */
 
@@ -13,15 +14,17 @@ body {
   background: #f7f7f9;
   height: 4631.15px;
 }
+
 @media only screen and (max-width: 768px) {
   .item_nav {
     display: none;
   }
+
   .about {
     width: 327px;
   }
-  
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -30,6 +33,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .header_2 {
   padding: 15px;
 }
@@ -81,6 +85,7 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .flex-icons_2 {
   display: flex;
   width: 170.17px;
@@ -129,6 +134,7 @@ ul {
   align-items: center;
   gap: 88px;
   padding: 114px 24px;
+
   /* width: 100%; */
   left: 0;
   top: 718px;
@@ -140,6 +146,7 @@ article {
   flex-direction: column;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+
   /* padding: 16px; */
   gap: 12px;
 }
@@ -287,6 +294,7 @@ article {
   padding: 20px;
   gap: 12px;
   width: 80%;
+
   /* height: 409px; */
 }
 
@@ -351,7 +359,7 @@ article {
 }
 
 .language_list {
-  padding-left: 0px;
+  padding-left: 0;
   gap: 0;
 }
 
@@ -366,6 +374,7 @@ hr {
 
 .skills {
   line-height: 10px;
+
   /* padding-top: 50px; */
 }
 
@@ -414,6 +423,7 @@ hr {
 
 .action {
   /* width: 295px; */
+
   /* height: 72px; */
   padding-bottom: 16px;
 }
@@ -479,11 +489,13 @@ hr {
   padding: 30px;
   margin: 0;
 }
+
 .contact_form {
- display: flex;
- flex-direction: column;
- align-items: center;
-}  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 input[type=text],
 input[type=email] {
   width: 329px;
@@ -549,8 +561,8 @@ textarea {
 }
 
 .form {
-  padding-left: 0px;
-} 
+  padding-left: 0;
+}
 
 .text {
   font-family: 'Poppins', sans-serif;
@@ -590,15 +602,18 @@ textarea {
   padding-left: 10px;
   padding-top: 10px;
 }
+
 @media only screen and (min-width: 768px) {
   #menu {
     display: none;
   }
+
   .section_1 {
     display: flex;
     flex-direction: column;
     background-image: url(./images/desk_top.png);
   }
+
   .item_nav {
     display: flex;
     flex-direction: row;
@@ -608,9 +623,11 @@ textarea {
     font-size: 20px;
     padding-right: 50px;
   }
+
   .contact_me {
     background-image: url(./images/contact\ form\ background\ desk.png);
   }
+
   .contact_info {
     width: 50%;
     height: 10%;
@@ -620,6 +637,7 @@ textarea {
     line-height: 28px;
     text-align: center;
   }
+
   .header {
     box-shadow: 0 0.25px 10px 0 rgba(0, 0, 255, 0.2);
     position: fixed;
@@ -627,6 +645,7 @@ textarea {
     padding-left: 100px;
     padding-right: 100px;
   }
+
   /* .article > img {
     height: 100%;
     width: 100%;
@@ -635,13 +654,17 @@ textarea {
     float: left;
     width: 75%;
     padding: 15px;
+
     /* border: 1px solid red; */
   }
+
   .header_2 {
     width: 75%;
     padding: 15px;
+
     /* border: 1px solid red; */
   }
+
   .myname {
     font-weight: 700;
     font-size: 40px;
@@ -652,8 +675,8 @@ textarea {
     display: flex;
     align-items: center;
     height: 20%;
-    
   }
+
   .about {
     font-weight: 500;
     font-size: 20px;
@@ -661,63 +684,76 @@ textarea {
     color: #344563;
     padding-left: 13rem;
     width: 60%;
-  
+
     /* height: 146px; */
   }
+
   .connect {
     padding-left: 13rem;
   }
-  .flex-icons{
+
+  .flex-icons {
     padding-left: 13rem;
   }
+
   .about_me {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
+
     /* gap: 2em; */
     height: fit-content;
-    padding-bottom: 30px;
     padding: 5em 7% 0 7%;
   }
+
   .software_info {
     color: #344563;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    width: 100%
+    width: 100%;
   }
+
   .article {
     display: flex;
     flex-direction: row;
     gap: 3em;
+
     /* width: 1526px; */
     margin: 0 50px;
   }
+
   .works {
     display: grid;
     grid-template-columns: auto;
     align-items: center;
     gap: 88px;
+
     /* width: 90%; */
   }
+
   .move {
     display: flex;
     flex-direction: row-reverse;
   }
+
   .info {
     font-weight: 400;
     font-style: 16px;
     line-height: 24px;
     color: #344563;
   }
+
   .ton_multi {
     width: 100%;
   }
+
   hr {
     width: 90%;
     float: left;
   }
+
   .skills_list {
     display: flex;
     align-items: flex-start;
@@ -726,21 +762,25 @@ textarea {
     height: 0%;
     background-color: #f7f7f9;
     border-radius: 8px;
-    gap: 0px;
+    gap: 0;
   }
+
   .language_list {
     display: flex;
-    padding-left: 0px;
+    padding-left: 0;
     gap: 8px;
   }
+
   .about_myself {
-   margin: 0px;
+    margin: 0;
   }
+
   .contact_form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .submit {
     display: flex;
     align-items: center;
