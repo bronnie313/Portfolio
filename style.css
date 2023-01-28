@@ -786,4 +786,12 @@ textarea {
     display: flex;
     align-items: center;
   }
+
+  input[type=text] {
+    transition: width 2s;
+  }
+  input[type=text]:hover {
+    width: 130%;
+  }
+
 }
