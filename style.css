@@ -794,4 +794,11 @@ textarea {
     width: 130%;
   }
 
+  input[type=email] {
+    transition: width 2s;
+  }
+  input[type=email]:hover {
+    width: 130%;
+  }
+
 }
