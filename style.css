@@ -786,4 +786,28 @@ textarea {
     display: flex;
     align-items: center;
   }
+
+  input[type=text] {
+    transition: width 2s;
+  }
+
+  input[type=text]:hover {
+    width: 130%;
+  }
+
+  input[type=email] {
+    transition: width 2s;
+  }
+
+  input[type=email]:hover {
+    width: 130%;
+  }
+
+  textarea {
+    transition: width 2s;
+  }
+
+  textarea:hover {
+    width: 130%;
+  }
 }
