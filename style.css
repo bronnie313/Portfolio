@@ -790,6 +790,7 @@ textarea {
   input[type=text] {
     transition: width 2s;
   }
+
   input[type=text]:hover {
     width: 130%;
   }
@@ -797,6 +798,7 @@ textarea {
   input[type=email] {
     transition: width 2s;
   }
+
   input[type=email]:hover {
     width: 130%;
   }
@@ -804,8 +806,8 @@ textarea {
   textarea {
     transition: width 2s;
   }
+
   textarea:hover {
     width: 130%;
   }
-
 }
