@@ -786,4 +786,7 @@ textarea {
     display: flex;
     align-items: center;
   }
+  input[type=text] {
+    
+  }
 }
