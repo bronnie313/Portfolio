@@ -786,4 +786,12 @@ textarea {
     display: flex;
     align-items: center;
   }
+  .portfolio_img {
+    transition: width 2s, height 2s, transform 2s;
+  }
+  .portfolio_img:hover {
+    width: 105%;
+    height: 100%;
+    transform: rotate(360deg);
+  }
 }
