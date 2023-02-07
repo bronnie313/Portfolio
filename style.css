@@ -919,14 +919,15 @@ textarea {
     display: none;
   }
 
-  .hamburger.active .hamburger {
+  .hamburger.active {
     display: none;
     cursor: pointer;
   }
 
   .hamburger {
     display: none;
-  } 
+  }
+
   #mobile-menu {
     display: flex;
     justify-content: space-between;
@@ -948,5 +949,4 @@ textarea {
     color: #000;
     font-size: 25px;
   }
-
 }
