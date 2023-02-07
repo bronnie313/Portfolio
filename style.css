@@ -301,7 +301,8 @@ article {
 .info {
   /* width: 327px; */
   font-weight: 400;
-  font-style: 16px;
+
+  /* font-style: 16px; */
   line-height: 24px;
   color: #344563;
 }
@@ -702,7 +703,8 @@ textarea {
     grid-template-columns: 1fr 1.5fr;
 
     /* gap: 2em; */
-    height: fit-content;
+
+    /* height: fit-content; */
     padding: 5em 7% 5em 7%;
   }
 
@@ -741,14 +743,16 @@ textarea {
 
   .info {
     font-weight: 400;
-    font-style: 16px;
+
+    /* font-style: 16px; */
     line-height: 24px;
     color: #344563;
   }
 
   .ton_multi {
     width: 100%;
-    height: fit-content;
+
+    /* height: fit-content; */
   }
 
   hr {
@@ -791,11 +795,13 @@ textarea {
   .portfolio_img {
     transition: width 2s, height 2s, transform 2s;
   }
+
   .portfolio_img:hover {
     width: 105%;
     height: 100%;
     transform: rotate(360deg);
   }
+
   input[type=text] {
     transition: width 2s;
   }
@@ -818,6 +824,5 @@ textarea {
 
   textarea:hover {
     width: 130%;
-
   }
 }
