@@ -59,14 +59,19 @@ a {
   display: block;
 }
 
+#bar1 {
+  background-color: #2230d2;
+}
+
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 30px;
+  height: 4px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: blue;
+  background-color: white;
+  border: 0.5px solid blue;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -74,11 +79,11 @@ a {
 }
 
 .hamburger.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
+  transform: translateY(10px) rotate(50deg);
 }
 
 .hamburger.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-50deg);
 }
 
 .hamburger:visited .bar:nth-child(3) {
