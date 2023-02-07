@@ -47,8 +47,8 @@ a {
   padding: 0 24px;
 }
 
-.nav-branding {
-  font-size: 1.5rem;
+.nav-logo {
+  font-size: 2rem;
 }
 
 .hamburger {
@@ -923,4 +923,30 @@ textarea {
     display: none;
     cursor: pointer;
   }
+
+  .hamburger {
+    display: none;
+  } 
+  #mobile-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    gap: 50px;
+  }
+
+  .navbar {
+    padding: 0 100px;
+    box-shadow: 0 0.25px 10px 0 rgba(0, 0, 255, 0.2);
+    position: fixed;
+    width: 90%;
+    background-color: white;
+    height: 10%;
+  }
+
+  .menuItem {
+    color: #000;
+    font-size: 25px;
+  }
+
 }
