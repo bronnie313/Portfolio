@@ -35,8 +35,11 @@ header {
 }
 
 a {
-  color: blue;
+  color: white;
   text-decoration: none;
+  font-size: 32px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
 }
 
 .navbar {
@@ -48,7 +51,8 @@ a {
 }
 
 .nav-logo {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: #2230d2;
 }
 
 .hamburger {
@@ -77,6 +81,10 @@ a {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+.hamburger:visited .bar:nth-child(3) {
+  background: red;
+}
+
 .nav-menu {
   position: absolute;
   left: -120%;
@@ -84,10 +92,12 @@ a {
   flex-direction: column;
   width: 100%;
   transition: 0.3s;
-  font-size: 2rem;
-  backdrop-filter: blur(20px);
+  font-size: 32px;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
+  background-color: rgba(78, 78, 231, 0.7);
 }
 
 .nav-item {
@@ -98,6 +108,8 @@ a {
   left: 0;
   height: 100%;
   top: -30px;
+  align-items: flex-start;
+  padding: 60px;
 }
 
 /* .header {
