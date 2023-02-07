@@ -7,20 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
 <body>
     <!-- header start -->
-    <header class="header">
-        <a class="container Logo">My Logo</a>
-        <i id="menu" class="material-icons"><img src="./images/menu.png" alt="menu"></i>
-        <nav>
-            <ul class="item_nav">
-                <li class="icon">Portfolio</li>
-                <li class="icon">About</li>
-                <li class="icon">Contact</li>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">My Logo</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#works">Portfolio</a></li>
+                <li class="nav-item"><a href="#about-me">About</a></li>
+                <li class="nav-item"><a href="#contact-me">Contact</a></li>
             </ul>
+            <div class="header-bars">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar" id="bar1"></span>
+                    <span class="bar"></span>
+                </div>
+                <div>
+                    <ul id="mobile-menu" class="menuIcon">
+                        <li><a class="menuItem" href="#works">Portfolio</a></li>
+                        <li><a class="menuItem" href="#about-me">About</a></li>
+                        <li><a class="menuItem" href="#contact-me">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+        
     </header>
     <!-- header end -->
 
@@ -46,7 +61,7 @@
     </section>
     
     <!-- works section-->
-    <section class="works">
+    <section id="works" class="works">
         <article class="article">
             <div class="header_2">
                 <a href="" ></a><img src="./images/Snapshoot Portfolio.png" alt="Snapshoot Portfolio" class="portfolio_img" width="100%" height="100%"></a>
@@ -169,9 +184,9 @@
     <!-- works section end-->
     
     <!-- about me section-->
-    <section class="about_me">
-        <header class="top">
-            <header><h2 class="about_myself">About <br> Myself</h2></header>
+    <section id="about-me" class="about_me">
+        <div class="top">
+            <div><h2 class="about_myself">About <br> Myself</h2></div>
             <div class="info">
                 <p class="software_info">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             </div>
@@ -189,7 +204,7 @@
             <nav class="action">
                 <button type="button" class="click">Get my resume</button>
             </nav>
-        </header>
+        </div>
         <div class="lower_part">
             <div class="skills">
                 <ul class="framework">
@@ -211,7 +226,7 @@
     <!-- About me ends -->
 
     <!-- Contact me starts -->
-    <section class="contact_me">
+    <section id="contact-me" class="contact_me">
         <h2 class="contact_head">Contact me</h2>
         <p class="contact_info">If you have an application you 
             are interested  in developing, a 
@@ -232,6 +247,6 @@
 
     </section>
     <!-- contact me ends -->
-   
+   <script src="index.js"></script>
 </body>
 </html>
