@@ -979,17 +979,54 @@ textarea {
     color: #000;
     font-size: 25px;
   }
+
+  .lang-tangs {
+    float: left;
+  }
+
+  .detail-block {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    padding: 20px;
+    gap: 50px;
+  }
 }
 
 /* styling for the pop up mobile */
+
+/* #card-detail1,#card-detail2,#card-detail3,#card-detail4 {
+  display: none;
+  padding: 16px;
+  flex-direction: column;
+  margin: 35px 20px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+} */
+
+.display-none {
+  display: none;
+}
+
 .card-detail {
   display: flex;
   padding: 16px;
   flex-direction: column;
-  margin: 60px 25px;
+  margin: 35px 20px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .detail-header {
@@ -1003,7 +1040,6 @@ textarea {
   font-weight: 700;
   font-style: normal;
   color: #172b4d;
-  width: 259px;
   height: 36px;
   padding: 0;
 }
@@ -1031,16 +1067,30 @@ textarea {
   line-height: 24px;
 }
 
-.detail-block {
+/* .detail-block {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .detail-tags {
   display: flex;
+  flex-direction: row;
   width: 203px;
+  height: 24px;
+  align-items: center;
   gap: 8px;
   padding: 0;
+}
+
+.lang-tangs {
+  align-items: center;
+  padding: 4px 12px;
+  width: 89px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  float: left;
 }
 
 .button-action {
@@ -1059,4 +1109,14 @@ textarea {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+#details {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
 }
