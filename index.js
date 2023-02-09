@@ -49,8 +49,6 @@ const array = [{
 ];
 
 // work section
-const body = document.getElementById('works');
-const move = document.getElementById('move');
 array.forEach((card, index) => {
   const works = document.getElementById('works');
   const cardItem = document.createElement('div');
