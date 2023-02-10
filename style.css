@@ -1118,6 +1118,7 @@ textarea {
   left: 0;
   height: 100vh;
   width: 100vw;
+
   /* background-color: rgba(0, 0, 0, 0.4); */
-  background:  #C1C7D0;
+  background: #c1c7d0;
 }
