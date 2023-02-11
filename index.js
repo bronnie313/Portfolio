@@ -196,7 +196,7 @@ submit.addEventListener('click', (event) => {
   if (value !== lowercase) {
     event.preventDefault();
     message.style.color = '#ffffff';
-    message.innerHTML = 'Please write your email in lowercase.';
+    message.innerHTML = 'WRITE EMAIL IN: lowercase letters';
     email.focus();
     email.style.border = '4px solid red';
   }
