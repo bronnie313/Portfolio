@@ -201,3 +201,26 @@ submit.addEventListener('click', (event) => {
     email.style.border = '4px solid red';
   }
 });
+
+// local storage
+const contactForm = JSON.parse(window.localStorage.getItem('contactForm'));
+let contactInfo = JSON.parse(window.localStorage.getItem('contactInfo'));
+if (!contactInfo) {
+  contactInfo = {
+    name: '',
+    email: '',
+    message: '',
+  };
+}
+
+const keys = Object.keys(contactInfo);
+for (let i = 0; i < keys.length; i += 1) {
+  contactForm.elements[keys[i]].value = contactInfo[keys[i]];
+}
+
+for (let i = 0; i < contactForm.length; i += 1) {
+  contactForm.elements[i].addEventListener('change', (e) => {
+    contactInfo[`${contactForm.elements[i].name}`] = e.target.value;
+    window.localStorage.setItem('contactInfo', JSON.stringify(contactInfo));
+  });
+}
