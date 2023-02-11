@@ -197,5 +197,7 @@ submit.addEventListener('click', (event) => {
     event.preventDefault();
     message.style.color = '#ffffff';
     message.innerHTML = 'Please write your email in lowercase.';
+    email.focus();
+    email.style.border = '4px solid red';
   }
 });
