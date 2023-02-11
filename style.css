@@ -1122,3 +1122,8 @@ textarea {
 
   /* background: #c1c7d0; */
 }
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}

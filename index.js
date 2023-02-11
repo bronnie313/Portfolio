@@ -183,3 +183,21 @@ close4.addEventListener('click', () => {
   showUber.classList.toggle('card-detail');
   showTonic.classList.toggle('display-none');
 });
+
+// email validation
+
+const form = document.forms[0];
+const email = form.elements[1];
+const submit = document.querySelector('button[type=submit]');
+const message = document.querySelector('form > span');
+submit.addEventListener('click', (event) => {
+  const { value } = email;
+  const lowercase = value.toLowerCase();
+  if (value !== lowercase) {
+    event.preventDefault();
+    message.style.color = '#ffffff';
+    message.innerHTML = 'WRITE EMAIL IN: lowercase letters';
+    email.focus();
+    email.style.border = '4px solid red';
+  }
+});
