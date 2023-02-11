@@ -203,8 +203,8 @@ submit.addEventListener('click', (event) => {
 });
 
 // local storage
-
-var contactInfo = JSON.parse(window.localStorage.getItem('contactInfo'));
+const contactForm = JSON.parse(window.localStorage.getItem('contactForm'));
+let contactInfo = JSON.parse(window.localStorage.getItem('contactInfo'));
 if (!contactInfo) {
   contactInfo = {
     name: '',
@@ -214,11 +214,11 @@ if (!contactInfo) {
 }
 
 const keys = Object.keys(contactInfo);
-for (var i = 0; i < keys.length; i += 1) {
+for (let i = 0; i < keys.length; i += 1) {
   contactForm.elements[keys[i]].value = contactInfo[keys[i]];
 }
 
-for (var i = 0; i < contactForm.length; i += 1) {
+for (let i = 0; i < contactForm.length; i += 1) {
   contactForm.elements[i].addEventListener('change', (e) => {
     contactInfo[`${contactForm.elements[i].name}`] = e.target.value;
     window.localStorage.setItem('contactInfo', JSON.stringify(contactInfo));
