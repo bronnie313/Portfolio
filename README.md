@@ -97,7 +97,7 @@ A project was built Using
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [See WEB here](https://github.com/bronnie313/Portfolio.git)
+- [See WEB here](https://bronnie313.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
